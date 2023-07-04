@@ -4,3 +4,13 @@
     padding: 0;
     margin: 0;
 }
+header {
+    background-image: linear-gradient(to left, navy , rgb(0, 153, 255));
+}
+
+h1 {
+    color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
