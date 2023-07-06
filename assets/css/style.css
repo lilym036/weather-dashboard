@@ -14,3 +14,13 @@ h1 {
     padding: 20px;
     text-align: center;
 }
+
+.gx-0 {
+flex: 0 0 auto;
+    width: 25%;
+}
+
+.cardInfo {
+    flex: 0 0 auto;
+    width: 75%;
+}
