@@ -66,7 +66,7 @@ function renderFiveDay (data) {
 function getApi(event) {
   event.preventDefault();
   console.log(userInput);
-  var queryurl = "http://api.openweathermap.org/data/2.5/forecast?q=" + userInput.value + "&appid=" + APIKey + "&units=imperial";
+  var queryurl = "https://api.openweathermap.org/data/2.5/forecast?q=" + userInput.value + "&appid=" + APIKey + "&units=imperial";
   console.log(queryurl);
   saveHistory(userInput.value);
 
