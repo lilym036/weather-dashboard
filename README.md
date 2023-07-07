@@ -9,21 +9,12 @@ N/A
 ## Usage
 Open index.html file in the browser. Input a city name in the "Search for a city" input section and click "search" when choosing a city. The user will then be presented with current and future conditions for that city. 
 
-Provide instructions and examples for use. Include screenshots as needed.
+![alt text](../weather-dashboard/images/screenshot.png);
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
+Matthew Calimbas- Tutor; 5 Day Weather Forecast API, Bootstrap v5.1.3
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 MIT License
