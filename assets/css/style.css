@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
 }
+/* styling for header */
 header {
     background-image: linear-gradient(to left, navy , rgb(0, 153, 255));
 }
@@ -15,3 +16,7 @@ h1 {
     text-align: center;
 }
 
+/* styling for fetch button */
+#fetch-button {
+    width: 100%;
+}
