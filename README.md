@@ -9,8 +9,9 @@ N/A
 ## Usage
 Open index.html file in the browser. Input a city name in the "Search for a city" input section and click "search" when choosing a city. The user will then be presented with current and future conditions for that city. 
 
-![alt text](../weather-dashboard/images/screenshot.png);
+![alt text](./images/screenshot.png)
 
+https://lilym036.github.io/weather-dashboard/
 
 ## Credits
 Matthew Calimbas- Tutor; 5 Day Weather Forecast API, Bootstrap v5.1.3
@@ -39,3 +40,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+
+
+[def]: ./images/screenshot.png
