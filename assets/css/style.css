@@ -21,7 +21,7 @@ h1 {
 p {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-content: stretch;
 }
 
@@ -35,9 +35,10 @@ p {
 .card {
     background-color: gray;
     padding: 30px;
-    margin: 22px;
+    margin: 15px;
     border: 5px solid #0d6efd!important;
     color: white;
+    height: 250px;
     
 }
 
