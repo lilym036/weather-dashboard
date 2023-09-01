@@ -10,6 +10,7 @@ var currentWind= document.getElementById("wind");
 var currentHumidity= document.getElementById("humid");
 var fiveDay= document.getElementById("five-day");
 var chosenCity= document.getElementById("chosen-city");
+var clearHistory= document.getElementById("clear-history");
 console.log(fetchButton);
 
 // saving in local storage
@@ -21,9 +22,12 @@ function saveHistory(city) {
 
 // getting history from local storage and placing on page
 function renderHistory() {
+  cityHistory.innerHTML="";
   var history = JSON.parse(localStorage.getItem("history")) || [];
-  var button = document.createElement("button");
+  // var button = document.createElement("button");
   for (var i = 0; i < history.length; i++) {
+    var button = document.createElement("button");
+    button.setAttribute("class", "city-button");
     button.textContent= history[i];
     cityHistory.append(button);
   }
@@ -42,7 +46,8 @@ currentHumidity.textContent= `humidity: ${data.list[0].main.humidity} %`
 
 // five day forecast
 function renderFiveDay (data) {
-  for (var i=0; i< data.list.length; i= i + 8) {
+  fiveDay.innerHTML= "";
+  for (var i= 0; i< data.list.length; i= i + 8) {
     var card= document.createElement("div");
     var fiveDate= document.createElement("p");
     var fiveTemp= document.createElement("p");

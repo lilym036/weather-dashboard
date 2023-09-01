@@ -17,6 +17,46 @@ h1 {
 }
 
 /* styling for fetch button */
-#fetch-button {
-    width: 100%;
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+}
+
+.current-day {
+    background-color: gray;
+    margin-top: 15px;
+    color: white;
+    border: 5px solid #0d6efd!important;
+}
+
+.card {
+    background-color: gray;
+    padding: 30px;
+    margin: 22px;
+    border: 5px solid #0d6efd!important;
+    color: white;
+    
+}
+
+.search-area {
+    margin-top: 15px;
+}
+
+.card-title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.city-button {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    width: 181px;
+    color: white;
+    background-color: gray;
+
 }
