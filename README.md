@@ -14,7 +14,11 @@ Open index.html file in the browser. Input a city name in the "Search for a city
 https://lilym036.github.io/weather-dashboard/
 
 ## Credits
-Matthew Calimbas- Tutor; 5 Day Weather Forecast API, Bootstrap v5.1.3
+Thanks to the following person who helped me in this project:
+<br>Matthew Calimbas
+
+The following were also helpful tools:
+5 Day Weather Forecast API, Bootstrap v5.1.3
 
 
 ## License
