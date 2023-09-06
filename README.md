@@ -9,7 +9,7 @@ N/A
 ## Usage
 Open index.html file in the browser. Input a city name in the "Search for a city" input section and click "search" when choosing a city. The user will then be presented with current and future conditions for that city. 
 
-![alt text](./images/screenshot.png)
+![alt text](./images/screenshot2.png)
 
 https://lilym036.github.io/weather-dashboard/
 
