@@ -78,6 +78,11 @@ h1 {
 }
 
 @media screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .card {
         width: 50%;
     display: block;
