@@ -18,12 +18,12 @@ h1 {
 
 /* styling for fetch button */
 
-p {
+/* p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: stretch;
-}
+} */
 
 .current-day {
     background-color: gray;
@@ -79,12 +79,19 @@ p {
 
 @media screen and (max-width: 600px) {
     .card {
-        display: flex;
+        width: 50%;
+    display: block;
+    margin-bottom: 20px;
+    font-size: 15px;
+        /* display: flex;
         flex-wrap: wrap;
         text-align: center;
         font-size: 10px;
         align-self: center;
-        flex-basis: auto;     
+        flex-basis: auto;      */
+    }
+    p{
+        text-align: center;  
     }
 
 }
