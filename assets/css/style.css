@@ -33,12 +33,16 @@ p {
 }
 
 .card {
+    display: flex;
+    flex-wrap: wrap;
     background-color: gray;
     padding: 30px;
     margin: 15px;
     border: 5px solid #0d6efd!important;
     color: white;
-    height: 250px;
+    height: 282px;
+    text-align: center;
+    font-size: 13px;
     
 }
 
@@ -59,5 +63,28 @@ p {
     width: 181px;
     color: white;
     background-color: gray;
+
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 10px;
+        align-self: center;
+        flex-basis: auto;  
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        font-size: 10px;
+        align-self: center;
+        flex-basis: auto;     
+    }
 
 }
